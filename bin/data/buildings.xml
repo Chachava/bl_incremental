@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<buildings>
+	<building tier="1" name="Dr Zed's Meds" cost="10" base="2" />
+	<building tier="2" name="Ammo Dump" cost="125" base="6" />
+	<building tier="3" name="Marcus Munitions" cost="600" base="20" />
+	<building tier="4" name="Catch a Ride" cost="1800" base="65" />
+	<building tier="5" name="Ellie's Garage" cost="5600" base="200" />
+	<building tier="6" name="Sir Hammerlocks" cost="38000" base="650" />
+	<building tier="7" name="Tina's Workshop" cost="442000" base="2000" />
+	<building tier="8" name="Tannis' Research" cost="7300000" base="8500" />
+	<building tier="9" name="Moxxi's Bar" cost="145000000" base="100000" />
+</buildings>
