@@ -1,2 +1,10 @@
 # bl_incremental
 An incremental game based on Borderlands 2.....or at least it will be if I get it finished
+
+<b>A mission statement of sorts.</b>
+
+I've been playing incremental games for a while now after falling in love with Cookie Clicker a year or two ago. Sometime last year I also discovered Realm Grinder by Divine Games, this added so much more to the usual incremental/idle/clicker games, you kept unlocking new content the further you got into the game, and they're still adding new content now. It was this game and the mecahnics/maths behind many of it's features which really got me thinking about making my own incremental game. The main problem I had was that my creativity when it comes to writing and naming things is pretty much non existent, so I put off trying to make it. Eventually I decided that instead of trying to come up with my own ideas and never actually get anywhere, I would use an already existing world that I love, that of the Borderlands game franchise. This is obviously not any kind of official thing, and I really hope there are no objections from Gearbox (I'll be posting a link to this on their forums when I have something to show), but it'll actually give me something to base the story and graphical style on and actually be able to concentrate on the coding itself. I have a whole load of ideas for game mechanics I'd like to implement into the game, many of which aren't fully formed yet and it'll certainly be a while before I get anything past the very basic mechanics working. I'll try to keep a todo/idea file in this repository and add any new ideas or partial ideas as I come up with them. 
+
+This will also be an excuse for me to finally start learning Action Script as well. I'm aware I'm VERY late to the game on this one, and that I would probably be better off writing it in Javascript instead, but this is the way I chose to do it so I'm going to stick with it, lol. 
+
+This readme has become a bit of a rambling mess, as many of my written explanations do, so I'm going to leave it here and possibly update this later. 
