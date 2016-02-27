@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enemies>
+
+	<enemy type="bullymong">
+		<name>Monglet</name>
+		<id>monglet</id>
+		<minLevel>0</minLevel>
+		<baseHealth>100</baseHealth>
+		<baseXp>75</baseXp>
+		<shieldChance>0</shieldChance>
+		<baseShield>0</baseShield>
+		<baseDmg>10</baseDmg>
+	</enemy>
+	
+	<enemy type="bullymong">
+		<name>Bullymong Slinger</name>
+		<id>bullymongSlinger</id>
+		<minLevel>0</minLevel>
+		<baseHealth>125</baseHealth>
+		<baseXp>85</baseXp>
+		<shieldChance>0</shieldChance>
+		<baseShield>0</baseShield>
+		<baseDmg>12</baseDmg>
+	</enemy>
+	
+	<enemy type="bullymong">
+		<name>Adult Bullymong</name>
+		<id>adultBullymong</id>
+		<minLevel>0</minLevel>
+		<baseHealth>150</baseHealth>
+		<baseXp>100</baseXp>
+		<shieldChance>0</shieldChance>
+		<baseShield>0</baseShield>
+		<baseDmg>15</baseDmg>
+	</enemy>
+	
+	<enemy type="bandit">
+		<name>Psycho</name>
+		<id>psycho</id>
+		<minLevel>0</minLevel>
+		<baseHealth>100</baseHealth>
+		<baseXp>75</baseXp>
+		<shieldChance>0</shieldChance>
+		<baseShield>0</baseShield>
+		<baseDmg>10</baseDmg>
+	</enemy>
+	
+	<enemy type="bandit">
+		<name>Nomad</name>
+		<id>nomad</id>
+		<minLevel>0</minLevel>
+		<baseHealth>125</baseHealth>
+		<baseXp>85</baseXp>
+		<shieldChance>0.5</shieldChance>
+		<baseShield>80</baseShield>
+		<baseDmg>12</baseDmg>
+	</enemy>
+	
+	<enemy type="bandit">
+		<name>Marauder</name>
+		<id>marauder</id>
+		<minLevel>0</minLevel>
+		<baseHealth>150</baseHealth>
+		<baseXp>100</baseXp>
+		<shieldChance>0.75</shieldChance>
+		<baseShield>100</baseShield>
+		<baseDmg>15</baseDmg>
+	</enemy>
+	
+</enemies>
