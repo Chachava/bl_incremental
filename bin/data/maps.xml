@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<maps>
+	<map id="windshearWaste">
+		<name>Windshear Waste</name>
+		<enemies>
+			<type id="bullymong">true</type>
+			<type id="bandit">true</type>
+			<type id="rakk">false</type>
+			<type id="stalker">false</type>
+		</enemies>
+	</map>
+</maps>

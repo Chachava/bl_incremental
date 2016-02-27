@@ -1,42 +1,71 @@
-﻿package classes.display {
+﻿package src.classes.display {
 	
 	import flash.display.MovieClip;
-	import classes.display.building;
+	import flash.events.*;
 	
+	import src.classes.util.gameUtils;
 	
 	public class buildingDisplay extends MovieClip {
-		private var _buildings:Object;
 		
-		public function buildingDisplay() {
-		}
+		private var bId:String;
+		private var bTier:int;
+		private var bName:String;
+		private var bCount:int;
+		private var bCost:Number;
+		private var bVisibility:Boolean;
+		private var bVendorVisibility:Boolean;
 		
-		public function displayBuildings(buildings:XMLList):void{
-			//	Generates each of the buildings from the XML
-			//	and adds them to the _buildings object as t1, t2 etc. 
-			_buildings = new Object();
-			var len = buildings.length();
-			for( var i:int = 0; i < len; i++){
-				var bTier:int = buildings[i].@tier;
-				var bName:String = buildings[i].@name;
-				var bCost:Number = buildings[i].@cost;
-				var build:building = new building(bTier, bName, bCost);
-				_buildings["t" + bTier] = build;
-				build.x = 44;
-				build.y = 27 + (i * 70)
-				addChild(build);
-				
+		public function buildingDisplay(id:String, tier:int, name:String, cost:Number, visibility:Boolean = false, vendorVisibility:Boolean = false) {
+			bId = id;
+			bTier = tier;
+			bName = name;
+			bCount = 0;
+			bCost = cost;
+			bVisibility = visibility;
+			bVendorVisibility = vendorVisibility;
+			visible = visibility
+			bVendorIcon.visible = vendorVisibility
+			
+			updateIcon();
+			
+			if(visibility == true){
+				addEventListener(MouseEvent.CLICK, onBuildingClick);
+				if(vendorVisibility == true){
+					bVendorIcon.addEventListener(MouseEvent.CLICK, onVendorClick);
+				}
 			}
 		}
 		
-		public function updateDisplay(bData, cData){
-			//	Updates the display of all buildings
-			for(var b in bData){
-				var t = bData[b].tier;
-				var count = bData[b].count;
-				var cost = bData[b].cost;
-				_buildings["t" + t].updateButton(cost, count);
-				_buildings["t" + t].checkAfford(cData.money);
+		public function updateIcon():void{
+			bDisplayName_tf.text = bName;
+			bDisplayCost_tf.text = gameUtils.prettyNum(bCost);
+			bDisplayCount_tf.text = gameUtils.prettyNum(bCount);
+		}
+		
+		private function onBuildingClick(e:MouseEvent):void{
+			//	Check to make sure it wasn't the vendor icon that was clicked. 
+			if(e.target.name != "bVendorIcon"){
+				dispatchEvent( new Event("buildingClick", true));
 			}
+		}
+		private function onVendorClick(e:MouseEvent):void{
+			trace("Vendor Clicked");
+		}
+		public function get id():String{
+			return bId;
+		}
+		public function get cost():Number{
+			return bCost;
+		}
+		public function get tier():int{
+			return bTier;
+		}
+		
+		public function set count(amt:int):void{
+			bCount = amt;
+		}
+		public function set cost(amt:Number):void{
+			bCost = amt;
 		}
 	}
 	

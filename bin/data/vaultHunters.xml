@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vaultHunters path="bin/images/vhs/" >
+	<vaultHunter>
+		<name>Salvador</name>
+		<vhClass>Gunzerker</vhClass>
+		<imgIcon>sal_icon.png</imgIcon>
+		<imgFull>sal_full.png</imgFull>
+		<actionSkill>Gunzerking</actionSkill>
+		<description>Short description of Sal's playstyle.</description>
+	</vaultHunter>
+	
+	<vaultHunter>
+		<name>Zero</name>
+		<vhClass>Assassin</vhClass>
+		<imgIcon>zero_icon.png</imgIcon>
+		<imgFull>zero_full.png</imgFull>
+		<actionSkill>Deception</actionSkill>
+		<description>Short description of Zero's playstyle.</description>
+	</vaultHunter>
+	
+	<vaultHunter>
+		<name>Maya</name>
+		<vhClass>Siren</vhClass>
+		<imgIcon>maya_icon.png</imgIcon>
+		<imgFull>maya_full.png</imgFull>
+		<actionSkill>Phaselock</actionSkill>
+		<description>Short description of Maya's playstyle.</description>
+	</vaultHunter>
+	
+	<vaultHunter>
+		<name>Axton</name>
+		<vhClass>Commando</vhClass>
+		<imgIcon>axton_icon.png</imgIcon>
+		<imgFull>axton_full.png</imgFull>
+		<actionSkill>Sabre Turret</actionSkill>
+		<description>Short description of Axton's playstyle.</description>
+	</vaultHunter>
+	
+</vaultHunters>

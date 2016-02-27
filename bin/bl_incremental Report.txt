@@ -1,0 +1,120 @@
+﻿bl_incremental.swf Movie Report
+--------------------------------
+
+Metadata
+--------
+Bytes         Value
+----------    -----
+      1107    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> <xmp:CreatorTool>Adobe Flash Professional CS5.5 - build 349</xmp:CreatorTool> <xmp:CreateDate>2016-02-07T16:34:16Z</xmp:CreateDate> <xmp:MetadataDate>2016-02-27T11:32:38Z</xmp:MetadataDate> <xmp:ModifyDate>2016-02-27T11:32:38Z</xmp:ModifyDate> </rdf:Description> <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"> <dc:format>application/x-shockwave-flash</dc:format> </rdf:Description> <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"> <xmpMM:InstanceID>xmp.iid:1294DFC144DDE5118C70EE386F6D88C8</xmpMM:InstanceID> <xmpMM:DocumentID>xmp.did:1294DFC144DDE5118C70EE386F6D88C8</xmpMM:DocumentID> <xmpMM:OriginalDocumentID>xmp.did:EE033107BACDE511A3E78A6995E7B6AD</xmpMM:OriginalDocumentID> <xmpMM:DerivedFrom rdf:parseType="Resource"> <stRef:instanceID>xmp.iid:0D94DFC144DDE5118C70EE386F6D88C8</stRef:instanceID> <stRef:documentID>xmp.did:1F27B0945CCEE511A81FC790B88937F5</stRef:documentID> <stRef:originalDocumentID>xmp.did:EE033107BACDE511A3E78A6995E7B6AD</stRef:originalDocumentID> </xmpMM:DerivedFrom> </rdf:Description> </rdf:RDF> 
+
+Frame #    Frame Bytes    Total Bytes    Scene
+-------    -----------    -----------    -----
+      1          46365          46365    Scene 1 (AS 3.0 Classes Export Frame)
+      2         165440         211805    
+      3           1856         213661    
+      4            245         213906    
+
+Scene      Shape Bytes    Text Bytes    ActionScript Bytes
+-------    -----------    ----------    ------------------
+Scene 1              0           100                 20881
+
+Symbol                    Shape Bytes    Text Bytes    ActionScript Bytes
+----------------------    -----------    ----------    ------------------
+assetHolder                         0             0                     0
+imageHolder                         0             0                     0
+background                        945             0                     0
+bgGlow                             36             0                     0
+bgStrips                          881             0                     0
+Component_avatar                    0             0                     0
+Eridium                           129             0                     0
+eridiumIcon                        68             0                     0
+buildingDisplay                   116           597                     0
+buildingStoreIcon                  82             0                     0
+buildings                         145             0                     0
+currency                            0           449                     0
+moneyIcon                          67            45                     0
+expBar                            186             0                     0
+xpBar                              34             0                     0
+expLevel                            0           339                     0
+ammoBar                           107           162                     0
+enemyHealth                         0             0                     0
+enemyHealthBar                     31             0                     0
+enemyImgHolder                     35             0                     0
+enemyShield                        42             0                     0
+enemyShieldBar                     31             0                     0
+gameStage                          63           445                     0
+grenadeBar                         52           157                     0
+shieldBar                          77           147                     0
+healthBar                          33           147                     0
+healthSymbol                       52             0                     0
+stageHealthBar                      0             0                     0
+healthSymbolInner                  42             0                     0
+stageShieldBar                      0             0                     0
+characterAmmo                     126          2050                     0
+characterIcon                      85             0                     0
+characterInventory                146             0                     0
+inventoryWeapon                   161             0                     0
+inventoryItemLeft                 159             0                     0
+inventoryItemRight                160             0                     0
+inventory                           0            64                     0
+options                             0             0                     0
+tempIcon                            0             0                     0
+upgrades                          128            55                     0
+characterIconContainer             61             0                     0
+emptyVHContainer                   36             0                     0
+selectVH                           60            52                     0
+vhDescriptionBlue                 222           753                     0
+vhIcon                              0             0                     0
+vhImgHolder                        36             0                     0
+axtonFull                           0             0                     0
+axtonIcon                           0             0                     0
+mayaFull                            0             0                     0
+mayaIcon                            0             0                     0
+salvadorFull                        0             0                     0
+salvadorIcon                        0             0                     0
+zeroFull                            0             0                     0
+zeroIcon                            0             0                     0
+preLoader                         173             0                     0
+progressBar                        97             0                     0
+Symbol 64                           0             0                     0
+Symbol 65                           0             0                     0
+Symbol 66                           0             0                     0
+Symbol 67                           0             0                     0
+fl.core.ComponentShim               0             0                     0
+
+Font Name    Bytes         Characters
+---------    ----------    ----------
+Impact            12087     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ 
+
+ActionScript Bytes    Location
+------------------    --------
+             20881    Scene 1:Frame 1
+
+Bitmap                  Compressed    Original      Compression
+--------------------    ----------    ----------    -----------
+test.png                      8523         86400    JPEG Quality=80
+launcherAmmo.png               265          1440    Lossless
+sniperAmmo.png                 189          1440    Lossless
+smgAmmo.png                    187          1440    Lossless
+shotgunAmmo.png                228          1440    Lossless
+arAmmo.png                     394          1440    Lossless
+pistolAmmo.png                 214          1440    Lossless
+grenadeAmmo.png                353          1440    Lossless
+axton_full.png               22222        659020    JPEG Quality=80
+axton_icon.png                1503         16900    JPEG Quality=80
+maya_full.png                19085        659020    JPEG Quality=80
+maya_icon.png                 1592         16900    JPEG Quality=80
+sal_full.png                 24953        659020    JPEG Quality=80
+sal_icon.png                  1581         16900    JPEG Quality=80
+zero_full.png                17531        659020    JPEG Quality=80
+zero_icon.png                 1219         16900    JPEG Quality=80
+adultBullymong.png           13659         81200    JPEG Quality=80
+bullymongSlinger.png         10349         81200    JPEG Quality=80
+marauder.png                  9233         81200    JPEG Quality=80
+monglet.png                   9187         81200    JPEG Quality=80
+nomad.png                    10910         81200    JPEG Quality=80
+psycho.png                    9916         81200    JPEG Quality=80
+
+
+
+
